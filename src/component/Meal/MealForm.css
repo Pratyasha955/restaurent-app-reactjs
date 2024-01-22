@@ -1,0 +1,23 @@
+.form-group{
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+  .form-group input{
+    width: 50px;
+  }
+  .form-group label{
+     font-weight: bold;
+     width: 50px;
+  }
+  
+  .form-button button{
+    background-color: brown;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    margin-left: 10px;
+    width: 120px;
+  }
+  
+ 

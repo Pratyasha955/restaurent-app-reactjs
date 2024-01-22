@@ -1,0 +1,24 @@
+.meal-item {
+  display: flex;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+.meal-details {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding-right: 20px;
+}
+
+.form-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 20px;
+}
+
+.price {
+  color: rgb(255, 0, 0);
+  font-weight: bold;
+}
