@@ -1,9 +1,9 @@
 import React, { Fragment, useState } from 'react';
-import Header from "./components/Layout/Header";
-import Summary from "./components/Layout/Summary";
-import Meallist from './components/Meal/MealList';
-import Cart from './components/Cart/Cart';
-import CartContextProvider from './component/store/CartContextProvider';
+import Header from "./component/Layout/Header";
+import Summary from "./component/Layout/Summary";
+import Meallist from './component/Meal/MealList';
+import Cart from './component/Cart/Cart';
+import CartContextProvider from './component/Store/CartContextProvider';
 
 function App() {
   const [cartIsShown, setCartIsShown] = useState(false);

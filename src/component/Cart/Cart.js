@@ -1,7 +1,7 @@
 import React from 'react';
 import Modal from "../Modal/Modal";
-import CartItem from './CartItem'; 
-import { useCart } from '../store/CartContextProvider';
+import CartItem from "./Cartitem";
+import { useCart } from '../Store/CartContextProvider';
 
 import "./Cart.css";
 
