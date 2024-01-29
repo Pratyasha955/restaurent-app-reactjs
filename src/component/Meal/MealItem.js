@@ -1,5 +1,5 @@
 import React from 'react';
-import { useCart } from '../Store/CartContextProvider';
+import { useCart } from '../store/CartContextProvider';
 import MealForm from './MealForm';
 import './MealItem.css';
 

@@ -3,7 +3,7 @@ import Header from "./component/Layout/Header";
 import Summary from "./component/Layout/Summary";
 import Meallist from './component/Meal/MealList';
 import Cart from './component/Cart/Cart';
-import CartContextProvider from './component/Store/CartContextProvider';
+import CartContextProvider from './component/store/CartContextProvider';
 
 function App() {
   const [cartIsShown, setCartIsShown] = useState(false);
