@@ -5,7 +5,7 @@ const MealForm = (props) => {
     const [amount, setAmount] = useState(1);
     const submitHandler = (event) => {
       event.preventDefault();
-      props.onAddToCart(amount); // Invoke onAddToCart with the selected amount
+      props.onAddToCart(amount); 
     };
   
     const amountChangeHandler = (event) => {
